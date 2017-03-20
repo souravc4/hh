@@ -12,6 +12,7 @@ function scrolldown(){
 		el.style.top = 'auto';
 		ele.style.color = '#FFD700';
 		ele.style.fontSize = '63px';
+		ele.style.textShadow = "none";
 	}
 	
 	if(distance_from_top > 0) {
@@ -19,8 +20,9 @@ function scrolldown(){
 		el.style.top = '0px';
 		el.style.left = '643px';
 		el.style.zIndex = '30';
-		ele.style.color = 'lightgreen';
+		ele.style.color = '#36164c';
 		ele.style.fontSize = '45px';
+		ele.style.textShadow = "0px 0px 2px #783917";
 	}
 }
 
@@ -32,10 +34,11 @@ function scrollup(){
 	document.body.scrollTop = -1;
 }
 function hoverup(){
-	ele.style.color = 'yellow';
+	ele.style.color = '#FFDF00';
+	ele.style.textShadow = "none";
 }
 function hoverdown(){
-	ele.style.color = 'lightgreen';
+	ele.style.color = '#36164c';
 	scrolldown();
 }
 
