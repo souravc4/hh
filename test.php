@@ -25,7 +25,7 @@
 		<div id="header">
 			<h5 class="text-center" id="logo"><a href="#">hamari hindi</a></h5>
 		</div>
-
+		<!--
 		<nav class="navbar navbar-default">     
 				<div class="container"> 
 					<div class="navbar-header">
@@ -52,6 +52,8 @@
 					</div>  
 				</div>
 			</nav>
+			-->
+		<?php include 'navbar.php';?>
 
 
 

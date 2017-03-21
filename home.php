@@ -10,45 +10,13 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/home_style.css">
 	<link href="https://fonts.googleapis.com/css?family=Amiko" rel="stylesheet">
-	<style>
-		body{
-			background-image: url("images/back1.jpg");
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-		}
-	</style>
 </head>
 <body onload="currentNav()">
 
 	<div class="navbar-wrapper">
 		<div class="container">
 			<h5 class="text-center" id="logo" onclick="header()"><a href="#">hamari hindi</a></h5>
-			<nav class="navbar navbar-default">     
-				<div class="container"> 
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-					</div>
-					<div class="collapse navbar-collapse" id="mainNavbar">
-						<ul class="nav navbar-nav">
-							<li onmouseover="mOver(this)" onmouseout="mOut(this)"><a class="headmenu" href="#"><p>Home</p></a></li>
-							<li onmouseover="mOver(this)" onmouseout="mOut(this)"><a class="headmenu" href="#"><p>Shayari</p></a></li>
-							<li onmouseover="mOver(this)" onmouseout="mOut(this)"><a class="headmenu" href="#"><p>Original</p></a></li>
-							<li onmouseover="mOver(this)" onmouseout="mOut(this)"><a class="headmenu" href="#"><p>Popular</p></a></li>
-						</ul>
-						<ul class="nav navbar-nav navbar-center">
-							<li onmouseover="mOver(this)" onmouseout="mOut(this)"><a class="headmenu" href="#"><p>Articles</p></a></li>
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
-							<li onmouseover="mOver(this)" onmouseout="mOut(this)"><a class="headmenu" href="#"><p>Visitor's Section</p></a></li>
-							<li onmouseover="mOver(this)" onmouseout="mOut(this)"><a class="headmenu" href="#"><p>Add your post</p></a></li>
-						</ul>
-					</div>  
-				</div>
-			</nav>
+			<?php include 'navbar.php';?>
 		</div>
 	</div>
 

@@ -1,3 +1,6 @@
+body{
+	background-color: #965e61;
+}
 .container			/*width=1140px*/
 {
 
@@ -8,6 +11,7 @@
 {
 	height:100px;
 	border:solid 2px #006600;
+	background-color: #eceff1;
 }
 
 #logo{
@@ -85,7 +89,7 @@
 {
 	float:left;
 	width:340px;
-	background-color:#ffffcc;
+	background-color: lightblue;
 	min-height:800px;
 }
 #footer

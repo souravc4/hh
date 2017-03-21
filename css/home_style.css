@@ -1,6 +1,7 @@
 	body{
 		font-family: Segoe UI,verdana;
 		font-size: large;
+		background-color: #2d1e19;
 	}
 
 /*navigation bar*/
@@ -20,12 +21,12 @@
 	}
 
 	#logo a:link {
-		color:#FFD700;
+		color:black;
 		text-decoration: none;
 	}
 
 	#logo a:visited {
-		color:#FFD700;
+		color:black;
 		text-decoration: none;
 	}
 
@@ -88,11 +89,11 @@
 
 	.carousel .item {
 		height: 350px;
-		background-color: rgba(51, 20, 79, 0.96);
+		background-color: #30415d;
 	}
 
 	.carousel-inner .item p{
-		color: rgb(218,165,32);
+		color: black;
 		font-family: 'Amiko', sans-serif;
 		font-size: 40px;
 	}
