@@ -14,8 +14,7 @@
 <body onload="currentNav()">
 
 	<div class="container">
-		<br>
-
+	
 		<div id="header">
 			<h5 class="text-center" id="logo"><a href="#">hamari hindi</a></h5>
 		</div>

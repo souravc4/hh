@@ -10,7 +10,7 @@ echo '<nav class="navbar navbar-default">
 					</div>
 					<div class="collapse navbar-collapse" id="mainNavbar">
 						<ul class="nav navbar-nav">
-							<li onmouseover="mOver(this)" onmouseout="mOut(this)"><a class="headmenu" href="home.php"><p>Home</p></a></li>
+							<li onmouseover="mOver(this)" onmouseout="mOut(this)"><a class="headmenu" href="index.php"><p>Home</p></a></li>
 							<li onmouseover="mOver(this)" onmouseout="mOut(this)"><a class="headmenu" href="#"><p>Shayari</p></a></li>
 							<li onmouseover="mOver(this)" onmouseout="mOut(this)"><a class="headmenu" href="#"><p>Original</p></a></li>
 							<li onmouseover="mOver(this)" onmouseout="mOut(this)"><a class="headmenu" href="#"><p>Popular</p></a></li>

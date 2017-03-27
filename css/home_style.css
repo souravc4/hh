@@ -1,7 +1,7 @@
 	body{
 		font-family: Segoe UI,verdana;
 		font-size: large;
-		background-color: #2d1e19;
+		background-color: rgba(45, 30, 20, 1);
 	}
 
 /*navigation bar*/
@@ -62,7 +62,7 @@
 	}
 
 	@media (min-width: 768px) {
-		.navbar-nav.navbar-center {
+		.navbar-center {
 			position: absolute;
 			left: 50%;
 			transform: translatex(-50%);
@@ -89,7 +89,7 @@
 
 	.carousel .item {
 		height: 350px;
-		background-color: #30415d;
+		background-color: #944d5a;
 	}
 
 	.carousel-inner .item p{
